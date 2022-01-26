@@ -15,12 +15,12 @@ int main(){
     cin >> hour1 >> min1 >> sec1;
     cin >> hour2 >> min2 >> sec2;
 
-    int hour_to_min1 = hour1 * 60 + min1;
-    int hour_to_min2 = hour2 * 60 + min2;
+    int hourToMin1 = hour1 * 60 + min1;
+    int hourToMin2 = hour2 * 60 + min2;
 
-    int min_to_sec1 = hour_to_min1 * 60 + sec1;
-    int min_to_sec2 = hour_to_min2 * 60 + sec2;
+    int minToSec1 = hourToMin1 * 60 + sec1;
+    int minToSec2 = hourToMin2 * 60 + sec2;
 
-    int diff = min_to_sec2 - min_to_sec1;
+    int diff = minToSec2 - minToSec1;
     cout << diff;
 }
