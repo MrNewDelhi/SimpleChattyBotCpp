@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimes.cpp
+iostream
+C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/DifferenceOfTimes/iostream
+
