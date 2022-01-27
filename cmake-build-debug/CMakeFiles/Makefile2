@@ -59,6 +59,21 @@ CMAKE_SOURCE_DIR = C:\Users\anmol\CLionProjects\SimpleChattyBotCpp
 CMAKE_BINARY_DIR = C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug
 
 #=============================================================================
+# Directory level rules for directory ../IntegerTypesAndOperations/Desks/DesksOutput
+
+# Recursive "all" directory target.
+../IntegerTypesAndOperations/Desks/DesksOutput/all: ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/all
+.PHONY : ../IntegerTypesAndOperations/Desks/DesksOutput/all
+
+# Recursive "preinstall" directory target.
+../IntegerTypesAndOperations/Desks/DesksOutput/preinstall:
+.PHONY : ../IntegerTypesAndOperations/Desks/DesksOutput/preinstall
+
+# Recursive "clean" directory target.
+../IntegerTypesAndOperations/Desks/DesksOutput/clean: ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/clean
+.PHONY : ../IntegerTypesAndOperations/Desks/DesksOutput/clean
+
+#=============================================================================
 # Directory level rules for directory ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput
 
 # Recursive "all" directory target.
@@ -94,16 +109,19 @@ CMAKE_BINARY_DIR = C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-d
 # The main recursive "all" target.
 all: ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/all
 all: ../IntegerTypesAndOperations/Snail/SnailOutput/all
+all: ../IntegerTypesAndOperations/Desks/DesksOutput/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/preinstall
 preinstall: ../IntegerTypesAndOperations/Snail/SnailOutput/preinstall
+preinstall: ../IntegerTypesAndOperations/Desks/DesksOutput/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/clean
 clean: ../IntegerTypesAndOperations/Snail/SnailOutput/clean
+clean: ../IntegerTypesAndOperations/Desks/DesksOutput/clean
 .PHONY : clean
 
 #=============================================================================
@@ -113,7 +131,7 @@ clean: ../IntegerTypesAndOperations/Snail/SnailOutput/clean
 ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/DifferenceOfTimes.dir/all:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\DifferenceOfTimes\DifferenceOfTimesOutput\CMakeFiles\DifferenceOfTimes.dir\build.make ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/DifferenceOfTimes.dir/depend
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\DifferenceOfTimes\DifferenceOfTimesOutput\CMakeFiles\DifferenceOfTimes.dir\build.make ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/DifferenceOfTimes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target DifferenceOfTimes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target DifferenceOfTimes"
 .PHONY : ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/DifferenceOfTimes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -139,7 +157,7 @@ DifferenceOfTimes: ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTi
 ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/all:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/depend
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Snail"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Snail"
 .PHONY : ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/all
 
 # Build rule for subdir invocation for target.
@@ -157,6 +175,32 @@ Snail: ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/rule
 ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/clean:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/clean
 .PHONY : ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/clean
+
+#=============================================================================
+# Target rules for target ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir
+
+# All Build rule for target.
+../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/all:
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Desks\DesksOutput\CMakeFiles\Desks.dir\build.make ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/depend
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Desks\DesksOutput\CMakeFiles\Desks.dir\build.make ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Desks"
+.PHONY : ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/all
+
+# Build rule for subdir invocation for target.
+../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles 0
+.PHONY : ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/rule
+
+# Convenience name for target.
+Desks: ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/rule
+.PHONY : Desks
+
+# clean rule for target.
+../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Desks\DesksOutput\CMakeFiles\Desks.dir\build.make ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/clean
+.PHONY : ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

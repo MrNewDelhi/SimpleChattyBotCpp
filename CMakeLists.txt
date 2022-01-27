@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 23)
 
 add_subdirectory("${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/DifferenceOfTimes" "${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput")
 add_subdirectory("${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/Snail" "${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/Snail/SnailOutput")
+add_subdirectory("${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/Desks" "${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/Desks/DesksOutput")

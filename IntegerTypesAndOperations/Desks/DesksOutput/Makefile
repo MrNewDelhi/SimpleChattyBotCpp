@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\IntegerTypesAndOperations\Desks\DesksOutput\\CMakeFiles\progress.marks
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Desks/DesksOutput/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Desks/DesksOutput/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,57 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Desks/DesksOutput/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Desks/DesksOutput/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named DifferenceOfTimes
+# Convenience name for target.
+../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/rule:
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/rule
+.PHONY : ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/rule
 
-# Build rule for target.
-DifferenceOfTimes: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DifferenceOfTimes
-.PHONY : DifferenceOfTimes
-
-# fast build rule for target.
-DifferenceOfTimes/fast:
-	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\DifferenceOfTimes\DifferenceOfTimesOutput\CMakeFiles\DifferenceOfTimes.dir\build.make ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/DifferenceOfTimes.dir/build
-.PHONY : DifferenceOfTimes/fast
-
-#=============================================================================
-# Target rules for targets named Snail
-
-# Build rule for target.
-Snail: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Snail
-.PHONY : Snail
-
-# fast build rule for target.
-Snail/fast:
-	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/build
-.PHONY : Snail/fast
-
-#=============================================================================
-# Target rules for targets named Desks
-
-# Build rule for target.
-Desks: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Desks
+# Convenience name for target.
+Desks: ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/rule
 .PHONY : Desks
 
 # fast build rule for target.
 Desks/fast:
-	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Desks\DesksOutput\CMakeFiles\Desks.dir\build.make ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/build
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Desks\DesksOutput\CMakeFiles\Desks.dir\build.make ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/build
 .PHONY : Desks/fast
+
+Desks.obj: Desks.cpp.obj
+.PHONY : Desks.obj
+
+# target to build an object file
+Desks.cpp.obj:
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Desks\DesksOutput\CMakeFiles\Desks.dir\build.make ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/Desks.cpp.obj
+.PHONY : Desks.cpp.obj
+
+Desks.i: Desks.cpp.i
+.PHONY : Desks.i
+
+# target to preprocess a source file
+Desks.cpp.i:
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Desks\DesksOutput\CMakeFiles\Desks.dir\build.make ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/Desks.cpp.i
+.PHONY : Desks.cpp.i
+
+Desks.s: Desks.cpp.s
+.PHONY : Desks.s
+
+# target to generate assembly for a file
+Desks.cpp.s:
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Desks\DesksOutput\CMakeFiles\Desks.dir\build.make ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/Desks.cpp.s
+.PHONY : Desks.cpp.s
 
 # Help Target
 help:
@@ -163,8 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Desks
-	@echo ... DifferenceOfTimes
-	@echo ... Snail
+	@echo ... Desks.obj
+	@echo ... Desks.i
+	@echo ... Desks.s
 .PHONY : help
 
 
@@ -176,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

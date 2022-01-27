@@ -6,3 +6,6 @@ C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/Differ
 C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir
 C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/edit_cache.dir
 C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/rebuild_cache.dir
+C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir
+C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/edit_cache.dir
+C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/rebuild_cache.dir
