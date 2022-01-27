@@ -9,6 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
   "../IntegerTypesAndOperations/DifferenceOfTimes/CMakeLists.txt"
+  "../IntegerTypesAndOperations/Snail/CMakeLists.txt"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeRCCompiler.cmake"
@@ -49,9 +50,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/DifferenceOfTimes.dir/DependInfo.cmake"
+  "../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/DependInfo.cmake"
   )

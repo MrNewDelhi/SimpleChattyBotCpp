@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\IntegerTypesAndOperations\Snail\SnailOutput\\CMakeFiles\progress.marks
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Snail/SnailOutput/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Snail/SnailOutput/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,44 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Snail/SnailOutput/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Snail/SnailOutput/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named DifferenceOfTimes
+# Convenience name for target.
+../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/rule:
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/rule
+.PHONY : ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/rule
 
-# Build rule for target.
-DifferenceOfTimes: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DifferenceOfTimes
-.PHONY : DifferenceOfTimes
-
-# fast build rule for target.
-DifferenceOfTimes/fast:
-	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\DifferenceOfTimes\DifferenceOfTimesOutput\CMakeFiles\DifferenceOfTimes.dir\build.make ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/DifferenceOfTimes.dir/build
-.PHONY : DifferenceOfTimes/fast
-
-#=============================================================================
-# Target rules for targets named Snail
-
-# Build rule for target.
-Snail: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Snail
+# Convenience name for target.
+Snail: ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/rule
 .PHONY : Snail
 
 # fast build rule for target.
 Snail/fast:
-	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/build
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/build
 .PHONY : Snail/fast
+
+Snail.obj: Snail.cpp.obj
+.PHONY : Snail.obj
+
+# target to build an object file
+Snail.cpp.obj:
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/Snail.cpp.obj
+.PHONY : Snail.cpp.obj
+
+Snail.i: Snail.cpp.i
+.PHONY : Snail.i
+
+# target to preprocess a source file
+Snail.cpp.i:
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/Snail.cpp.i
+.PHONY : Snail.cpp.i
+
+Snail.s: Snail.cpp.s
+.PHONY : Snail.s
+
+# target to generate assembly for a file
+Snail.cpp.s:
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/Snail.cpp.s
+.PHONY : Snail.cpp.s
 
 # Help Target
 help:
@@ -149,8 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... DifferenceOfTimes
 	@echo ... Snail
+	@echo ... Snail.obj
+	@echo ... Snail.i
+	@echo ... Snail.s
 .PHONY : help
 
 
@@ -162,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

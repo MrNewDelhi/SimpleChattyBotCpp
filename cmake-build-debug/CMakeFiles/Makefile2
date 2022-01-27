@@ -74,18 +74,36 @@ CMAKE_BINARY_DIR = C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-d
 .PHONY : ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/clean
 
 #=============================================================================
+# Directory level rules for directory ../IntegerTypesAndOperations/Snail/SnailOutput
+
+# Recursive "all" directory target.
+../IntegerTypesAndOperations/Snail/SnailOutput/all: ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/all
+.PHONY : ../IntegerTypesAndOperations/Snail/SnailOutput/all
+
+# Recursive "preinstall" directory target.
+../IntegerTypesAndOperations/Snail/SnailOutput/preinstall:
+.PHONY : ../IntegerTypesAndOperations/Snail/SnailOutput/preinstall
+
+# Recursive "clean" directory target.
+../IntegerTypesAndOperations/Snail/SnailOutput/clean: ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/clean
+.PHONY : ../IntegerTypesAndOperations/Snail/SnailOutput/clean
+
+#=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/all
+all: ../IntegerTypesAndOperations/Snail/SnailOutput/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/preinstall
+preinstall: ../IntegerTypesAndOperations/Snail/SnailOutput/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/clean
+clean: ../IntegerTypesAndOperations/Snail/SnailOutput/clean
 .PHONY : clean
 
 #=============================================================================
@@ -113,6 +131,32 @@ DifferenceOfTimes: ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTi
 ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/DifferenceOfTimes.dir/clean:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\DifferenceOfTimes\DifferenceOfTimesOutput\CMakeFiles\DifferenceOfTimes.dir\build.make ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/DifferenceOfTimes.dir/clean
 .PHONY : ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/DifferenceOfTimes.dir/clean
+
+#=============================================================================
+# Target rules for target ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir
+
+# All Build rule for target.
+../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/all:
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/depend
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Snail"
+.PHONY : ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/all
+
+# Build rule for subdir invocation for target.
+../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles 0
+.PHONY : ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/rule
+
+# Convenience name for target.
+Snail: ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/rule
+.PHONY : Snail
+
+# clean rule for target.
+../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/clean
+.PHONY : ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

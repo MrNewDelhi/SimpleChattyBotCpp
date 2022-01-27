@@ -3,3 +3,6 @@ C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/cmake-build-debug/CMakeFiles/reb
 C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/DifferenceOfTimes.dir
 C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/edit_cache.dir
 C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/rebuild_cache.dir
+C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir
+C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/edit_cache.dir
+C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/rebuild_cache.dir
