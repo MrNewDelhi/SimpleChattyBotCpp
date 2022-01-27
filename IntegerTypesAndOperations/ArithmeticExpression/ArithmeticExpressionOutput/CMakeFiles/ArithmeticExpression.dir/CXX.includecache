@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpression.cpp
+iostream
+C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/ArithmeticExpression/iostream
+
