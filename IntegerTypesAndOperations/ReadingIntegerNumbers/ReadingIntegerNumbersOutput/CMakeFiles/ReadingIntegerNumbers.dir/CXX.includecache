@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbers.cpp
+iostream
+C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/ReadingIntegerNumbers/iostream
+
