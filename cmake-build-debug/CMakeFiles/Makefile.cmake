@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../IntegerTypesAndOperations/ArithmeticExpression/CMakeLists.txt"
   "../IntegerTypesAndOperations/Desks/CMakeLists.txt"
   "../IntegerTypesAndOperations/DifferenceOfTimes/CMakeLists.txt"
   "../IntegerTypesAndOperations/Reversing/CMakeLists.txt"
@@ -55,6 +56,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
   "../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
   "../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -63,4 +65,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/DependInfo.cmake"
   "../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/DependInfo.cmake"
   "../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/DependInfo.cmake"
+  "../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/CMakeFiles/ArithmeticExpression.dir/DependInfo.cmake"
   )

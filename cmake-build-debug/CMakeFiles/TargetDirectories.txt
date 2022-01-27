@@ -12,3 +12,6 @@ C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/Desks/
 C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir
 C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/edit_cache.dir
 C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/rebuild_cache.dir
+C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/CMakeFiles/ArithmeticExpression.dir
+C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/CMakeFiles/edit_cache.dir
+C:/Users/anmol/CLionProjects/SimpleChattyBotCpp/IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/CMakeFiles/rebuild_cache.dir

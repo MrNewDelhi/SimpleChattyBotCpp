@@ -7,3 +7,4 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/DifferenceOfTi
 add_subdirectory("${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/Snail" "${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/Snail/SnailOutput")
 add_subdirectory("${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/Desks" "${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/Desks/DesksOutput")
 add_subdirectory("${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/Reversing" "${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/Reversing/ReversingOutput")
+add_subdirectory("${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/ArithmeticExpression" "${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput")

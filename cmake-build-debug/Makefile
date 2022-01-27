@@ -167,6 +167,19 @@ Reversing/fast:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Reversing\ReversingOutput\CMakeFiles\Reversing.dir\build.make ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/build
 .PHONY : Reversing/fast
 
+#=============================================================================
+# Target rules for targets named ArithmeticExpression
+
+# Build rule for target.
+ArithmeticExpression: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ArithmeticExpression
+.PHONY : ArithmeticExpression
+
+# fast build rule for target.
+ArithmeticExpression/fast:
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\ArithmeticExpression\ArithmeticExpressionOutput\CMakeFiles\ArithmeticExpression.dir\build.make ../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/CMakeFiles/ArithmeticExpression.dir/build
+.PHONY : ArithmeticExpression/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -175,6 +188,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ArithmeticExpression
 	@echo ... Desks
 	@echo ... DifferenceOfTimes
 	@echo ... Reversing
