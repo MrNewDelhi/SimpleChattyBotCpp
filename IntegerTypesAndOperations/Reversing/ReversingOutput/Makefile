@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\IntegerTypesAndOperations\Reversing\ReversingOutput\\CMakeFiles\progress.marks
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Reversing/ReversingOutput/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Reversing/ReversingOutput/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,70 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Reversing/ReversingOutput/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Reversing/ReversingOutput/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named DifferenceOfTimes
+# Convenience name for target.
+../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/rule:
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/rule
+.PHONY : ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/rule
 
-# Build rule for target.
-DifferenceOfTimes: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DifferenceOfTimes
-.PHONY : DifferenceOfTimes
-
-# fast build rule for target.
-DifferenceOfTimes/fast:
-	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\DifferenceOfTimes\DifferenceOfTimesOutput\CMakeFiles\DifferenceOfTimes.dir\build.make ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/DifferenceOfTimes.dir/build
-.PHONY : DifferenceOfTimes/fast
-
-#=============================================================================
-# Target rules for targets named Snail
-
-# Build rule for target.
-Snail: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Snail
-.PHONY : Snail
-
-# fast build rule for target.
-Snail/fast:
-	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/build
-.PHONY : Snail/fast
-
-#=============================================================================
-# Target rules for targets named Desks
-
-# Build rule for target.
-Desks: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Desks
-.PHONY : Desks
-
-# fast build rule for target.
-Desks/fast:
-	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Desks\DesksOutput\CMakeFiles\Desks.dir\build.make ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/build
-.PHONY : Desks/fast
-
-#=============================================================================
-# Target rules for targets named Reversing
-
-# Build rule for target.
-Reversing: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Reversing
+# Convenience name for target.
+Reversing: ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/rule
 .PHONY : Reversing
 
 # fast build rule for target.
 Reversing/fast:
-	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Reversing\ReversingOutput\CMakeFiles\Reversing.dir\build.make ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/build
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Reversing\ReversingOutput\CMakeFiles\Reversing.dir\build.make ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/build
 .PHONY : Reversing/fast
+
+Reversing.obj: Reversing.cpp.obj
+.PHONY : Reversing.obj
+
+# target to build an object file
+Reversing.cpp.obj:
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Reversing\ReversingOutput\CMakeFiles\Reversing.dir\build.make ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/Reversing.cpp.obj
+.PHONY : Reversing.cpp.obj
+
+Reversing.i: Reversing.cpp.i
+.PHONY : Reversing.i
+
+# target to preprocess a source file
+Reversing.cpp.i:
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Reversing\ReversingOutput\CMakeFiles\Reversing.dir\build.make ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/Reversing.cpp.i
+.PHONY : Reversing.cpp.i
+
+Reversing.s: Reversing.cpp.s
+.PHONY : Reversing.s
+
+# target to generate assembly for a file
+Reversing.cpp.s:
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Reversing\ReversingOutput\CMakeFiles\Reversing.dir\build.make ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/Reversing.cpp.s
+.PHONY : Reversing.cpp.s
 
 # Help Target
 help:
@@ -175,10 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Desks
-	@echo ... DifferenceOfTimes
 	@echo ... Reversing
-	@echo ... Snail
+	@echo ... Reversing.obj
+	@echo ... Reversing.i
+	@echo ... Reversing.s
 .PHONY : help
 
 
@@ -190,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

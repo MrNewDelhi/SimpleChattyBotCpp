@@ -89,6 +89,21 @@ CMAKE_BINARY_DIR = C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-d
 .PHONY : ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/clean
 
 #=============================================================================
+# Directory level rules for directory ../IntegerTypesAndOperations/Reversing/ReversingOutput
+
+# Recursive "all" directory target.
+../IntegerTypesAndOperations/Reversing/ReversingOutput/all: ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/all
+.PHONY : ../IntegerTypesAndOperations/Reversing/ReversingOutput/all
+
+# Recursive "preinstall" directory target.
+../IntegerTypesAndOperations/Reversing/ReversingOutput/preinstall:
+.PHONY : ../IntegerTypesAndOperations/Reversing/ReversingOutput/preinstall
+
+# Recursive "clean" directory target.
+../IntegerTypesAndOperations/Reversing/ReversingOutput/clean: ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/clean
+.PHONY : ../IntegerTypesAndOperations/Reversing/ReversingOutput/clean
+
+#=============================================================================
 # Directory level rules for directory ../IntegerTypesAndOperations/Snail/SnailOutput
 
 # Recursive "all" directory target.
@@ -110,18 +125,21 @@ CMAKE_BINARY_DIR = C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-d
 all: ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/all
 all: ../IntegerTypesAndOperations/Snail/SnailOutput/all
 all: ../IntegerTypesAndOperations/Desks/DesksOutput/all
+all: ../IntegerTypesAndOperations/Reversing/ReversingOutput/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/preinstall
 preinstall: ../IntegerTypesAndOperations/Snail/SnailOutput/preinstall
 preinstall: ../IntegerTypesAndOperations/Desks/DesksOutput/preinstall
+preinstall: ../IntegerTypesAndOperations/Reversing/ReversingOutput/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/clean
 clean: ../IntegerTypesAndOperations/Snail/SnailOutput/clean
 clean: ../IntegerTypesAndOperations/Desks/DesksOutput/clean
+clean: ../IntegerTypesAndOperations/Reversing/ReversingOutput/clean
 .PHONY : clean
 
 #=============================================================================
@@ -157,7 +175,7 @@ DifferenceOfTimes: ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTi
 ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/all:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/depend
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Snail"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Snail"
 .PHONY : ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/all
 
 # Build rule for subdir invocation for target.
@@ -201,6 +219,32 @@ Desks: ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/rule
 ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/clean:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Desks\DesksOutput\CMakeFiles\Desks.dir\build.make ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/clean
 .PHONY : ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/clean
+
+#=============================================================================
+# Target rules for target ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir
+
+# All Build rule for target.
+../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/all:
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Reversing\ReversingOutput\CMakeFiles\Reversing.dir\build.make ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/depend
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Reversing\ReversingOutput\CMakeFiles\Reversing.dir\build.make ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Reversing"
+.PHONY : ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/all
+
+# Build rule for subdir invocation for target.
+../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles 0
+.PHONY : ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/rule
+
+# Convenience name for target.
+Reversing: ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/rule
+.PHONY : Reversing
+
+# clean rule for target.
+../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Reversing\ReversingOutput\CMakeFiles\Reversing.dir\build.make ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/clean
+.PHONY : ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

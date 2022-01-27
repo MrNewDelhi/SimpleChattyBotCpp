@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMakeLists.txt"
   "../IntegerTypesAndOperations/Desks/CMakeLists.txt"
   "../IntegerTypesAndOperations/DifferenceOfTimes/CMakeLists.txt"
+  "../IntegerTypesAndOperations/Reversing/CMakeLists.txt"
   "../IntegerTypesAndOperations/Snail/CMakeLists.txt"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
@@ -53,6 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
   "../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
   "../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -60,4 +62,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/CMakeFiles/DifferenceOfTimes.dir/DependInfo.cmake"
   "../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/DependInfo.cmake"
   "../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/DependInfo.cmake"
+  "../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/DependInfo.cmake"
   )
