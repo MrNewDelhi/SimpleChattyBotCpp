@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../IntegerTypesAndOperations/ArithmeticExpression/CMakeLists.txt"
   "../IntegerTypesAndOperations/Desks/CMakeLists.txt"
   "../IntegerTypesAndOperations/DifferenceOfTimes/CMakeLists.txt"
+  "../IntegerTypesAndOperations/ReadingIntegerNumbers/CMakeLists.txt"
   "../IntegerTypesAndOperations/Reversing/CMakeLists.txt"
   "../IntegerTypesAndOperations/Snail/CMakeLists.txt"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
@@ -57,6 +58,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
   "../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
   "../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -66,4 +68,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/DependInfo.cmake"
   "../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/DependInfo.cmake"
   "../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/CMakeFiles/ArithmeticExpression.dir/DependInfo.cmake"
+  "../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/DependInfo.cmake"
   )

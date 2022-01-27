@@ -180,6 +180,19 @@ ArithmeticExpression/fast:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\ArithmeticExpression\ArithmeticExpressionOutput\CMakeFiles\ArithmeticExpression.dir\build.make ../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/CMakeFiles/ArithmeticExpression.dir/build
 .PHONY : ArithmeticExpression/fast
 
+#=============================================================================
+# Target rules for targets named ReadingIntegerNumbers
+
+# Build rule for target.
+ReadingIntegerNumbers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ReadingIntegerNumbers
+.PHONY : ReadingIntegerNumbers
+
+# fast build rule for target.
+ReadingIntegerNumbers/fast:
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\ReadingIntegerNumbers\ReadingIntegerNumbersOutput\CMakeFiles\ReadingIntegerNumbers.dir\build.make ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/build
+.PHONY : ReadingIntegerNumbers/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +204,7 @@ help:
 	@echo ... ArithmeticExpression
 	@echo ... Desks
 	@echo ... DifferenceOfTimes
+	@echo ... ReadingIntegerNumbers
 	@echo ... Reversing
 	@echo ... Snail
 .PHONY : help

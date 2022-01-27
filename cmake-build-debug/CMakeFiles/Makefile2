@@ -104,6 +104,21 @@ CMAKE_BINARY_DIR = C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-d
 .PHONY : ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/clean
 
 #=============================================================================
+# Directory level rules for directory ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput
+
+# Recursive "all" directory target.
+../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/all: ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/all
+.PHONY : ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/all
+
+# Recursive "preinstall" directory target.
+../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/preinstall:
+.PHONY : ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/preinstall
+
+# Recursive "clean" directory target.
+../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/clean: ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/clean
+.PHONY : ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/clean
+
+#=============================================================================
 # Directory level rules for directory ../IntegerTypesAndOperations/Reversing/ReversingOutput
 
 # Recursive "all" directory target.
@@ -142,6 +157,7 @@ all: ../IntegerTypesAndOperations/Snail/SnailOutput/all
 all: ../IntegerTypesAndOperations/Desks/DesksOutput/all
 all: ../IntegerTypesAndOperations/Reversing/ReversingOutput/all
 all: ../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/all
+all: ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -150,6 +166,7 @@ preinstall: ../IntegerTypesAndOperations/Snail/SnailOutput/preinstall
 preinstall: ../IntegerTypesAndOperations/Desks/DesksOutput/preinstall
 preinstall: ../IntegerTypesAndOperations/Reversing/ReversingOutput/preinstall
 preinstall: ../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/preinstall
+preinstall: ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -158,6 +175,7 @@ clean: ../IntegerTypesAndOperations/Snail/SnailOutput/clean
 clean: ../IntegerTypesAndOperations/Desks/DesksOutput/clean
 clean: ../IntegerTypesAndOperations/Reversing/ReversingOutput/clean
 clean: ../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/clean
+clean: ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/clean
 .PHONY : clean
 
 #=============================================================================
@@ -193,7 +211,7 @@ DifferenceOfTimes: ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTi
 ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/all:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/depend
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Snail"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Snail"
 .PHONY : ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/all
 
 # Build rule for subdir invocation for target.
@@ -245,7 +263,7 @@ Desks: ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/rule
 ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/all:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Reversing\ReversingOutput\CMakeFiles\Reversing.dir\build.make ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/depend
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Reversing\ReversingOutput\CMakeFiles\Reversing.dir\build.make ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Reversing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Reversing"
 .PHONY : ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -289,6 +307,32 @@ ArithmeticExpression: ../IntegerTypesAndOperations/ArithmeticExpression/Arithmet
 ../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/CMakeFiles/ArithmeticExpression.dir/clean:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\ArithmeticExpression\ArithmeticExpressionOutput\CMakeFiles\ArithmeticExpression.dir\build.make ../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/CMakeFiles/ArithmeticExpression.dir/clean
 .PHONY : ../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/CMakeFiles/ArithmeticExpression.dir/clean
+
+#=============================================================================
+# Target rules for target ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir
+
+# All Build rule for target.
+../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/all:
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\ReadingIntegerNumbers\ReadingIntegerNumbersOutput\CMakeFiles\ReadingIntegerNumbers.dir\build.make ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/depend
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\ReadingIntegerNumbers\ReadingIntegerNumbersOutput\CMakeFiles\ReadingIntegerNumbers.dir\build.make ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target ReadingIntegerNumbers"
+.PHONY : ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/all
+
+# Build rule for subdir invocation for target.
+../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles 0
+.PHONY : ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/rule
+
+# Convenience name for target.
+ReadingIntegerNumbers: ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/rule
+.PHONY : ReadingIntegerNumbers
+
+# clean rule for target.
+../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\ReadingIntegerNumbers\ReadingIntegerNumbersOutput\CMakeFiles\ReadingIntegerNumbers.dir\build.make ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/clean
+.PHONY : ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
