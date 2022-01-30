@@ -193,6 +193,19 @@ ReadingIntegerNumbers/fast:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\ReadingIntegerNumbers\ReadingIntegerNumbersOutput\CMakeFiles\ReadingIntegerNumbers.dir\build.make ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/build
 .PHONY : ReadingIntegerNumbers/fast
 
+#=============================================================================
+# Target rules for targets named HowManyNutsEachSquirrelWillGet
+
+# Build rule for target.
+HowManyNutsEachSquirrelWillGet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HowManyNutsEachSquirrelWillGet
+.PHONY : HowManyNutsEachSquirrelWillGet
+
+# fast build rule for target.
+HowManyNutsEachSquirrelWillGet/fast:
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\HowManyNutsEachSquirrelWillGet\HowManyNutsEachSquirrelWillGetOutput\CMakeFiles\HowManyNutsEachSquirrelWillGet.dir\build.make ../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput/CMakeFiles/HowManyNutsEachSquirrelWillGet.dir/build
+.PHONY : HowManyNutsEachSquirrelWillGet/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -204,6 +217,7 @@ help:
 	@echo ... ArithmeticExpression
 	@echo ... Desks
 	@echo ... DifferenceOfTimes
+	@echo ... HowManyNutsEachSquirrelWillGet
 	@echo ... ReadingIntegerNumbers
 	@echo ... Reversing
 	@echo ... Snail

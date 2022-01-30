@@ -9,3 +9,4 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/Desks" "${PROJ
 add_subdirectory("${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/Reversing" "${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/Reversing/ReversingOutput")
 add_subdirectory("${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/ArithmeticExpression" "${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput")
 add_subdirectory("${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/ReadingIntegerNumbers" "${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput")
+add_subdirectory("${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet" "${PROJECT_SOURCE_DIR}/IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput")
