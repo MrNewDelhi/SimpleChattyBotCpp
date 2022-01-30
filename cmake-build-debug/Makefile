@@ -206,6 +206,19 @@ HowManyNutsEachSquirrelWillGet/fast:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\HowManyNutsEachSquirrelWillGet\HowManyNutsEachSquirrelWillGetOutput\CMakeFiles\HowManyNutsEachSquirrelWillGet.dir\build.make ../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput/CMakeFiles/HowManyNutsEachSquirrelWillGet.dir/build
 .PHONY : HowManyNutsEachSquirrelWillGet/fast
 
+#=============================================================================
+# Target rules for targets named GoodRestOnVacations
+
+# Build rule for target.
+GoodRestOnVacations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GoodRestOnVacations
+.PHONY : GoodRestOnVacations
+
+# fast build rule for target.
+GoodRestOnVacations/fast:
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\GoodRestOnVacations\GoodRestOnVacationsOutput\CMakeFiles\GoodRestOnVacations.dir\build.make ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir/build
+.PHONY : GoodRestOnVacations/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -217,6 +230,7 @@ help:
 	@echo ... ArithmeticExpression
 	@echo ... Desks
 	@echo ... DifferenceOfTimes
+	@echo ... GoodRestOnVacations
 	@echo ... HowManyNutsEachSquirrelWillGet
 	@echo ... ReadingIntegerNumbers
 	@echo ... Reversing

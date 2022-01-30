@@ -104,6 +104,21 @@ CMAKE_BINARY_DIR = C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-d
 .PHONY : ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTimesOutput/clean
 
 #=============================================================================
+# Directory level rules for directory ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput
+
+# Recursive "all" directory target.
+../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/all: ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir/all
+.PHONY : ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/all
+
+# Recursive "preinstall" directory target.
+../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/preinstall:
+.PHONY : ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/preinstall
+
+# Recursive "clean" directory target.
+../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/clean: ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir/clean
+.PHONY : ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/clean
+
+#=============================================================================
 # Directory level rules for directory ../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput
 
 # Recursive "all" directory target.
@@ -174,6 +189,7 @@ all: ../IntegerTypesAndOperations/Reversing/ReversingOutput/all
 all: ../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/all
 all: ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/all
 all: ../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput/all
+all: ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -184,6 +200,7 @@ preinstall: ../IntegerTypesAndOperations/Reversing/ReversingOutput/preinstall
 preinstall: ../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/preinstall
 preinstall: ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/preinstall
 preinstall: ../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput/preinstall
+preinstall: ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -194,6 +211,7 @@ clean: ../IntegerTypesAndOperations/Reversing/ReversingOutput/clean
 clean: ../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/clean
 clean: ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/clean
 clean: ../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput/clean
+clean: ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/clean
 .PHONY : clean
 
 #=============================================================================
@@ -229,7 +247,7 @@ DifferenceOfTimes: ../IntegerTypesAndOperations/DifferenceOfTimes/DifferenceOfTi
 ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/all:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/depend
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Snail\SnailOutput\CMakeFiles\Snail.dir\build.make ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Snail"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target Snail"
 .PHONY : ../IntegerTypesAndOperations/Snail/SnailOutput/CMakeFiles/Snail.dir/all
 
 # Build rule for subdir invocation for target.
@@ -281,7 +299,7 @@ Desks: ../IntegerTypesAndOperations/Desks/DesksOutput/CMakeFiles/Desks.dir/rule
 ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/all:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Reversing\ReversingOutput\CMakeFiles\Reversing.dir\build.make ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/depend
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\Reversing\ReversingOutput\CMakeFiles\Reversing.dir\build.make ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Reversing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Reversing"
 .PHONY : ../IntegerTypesAndOperations/Reversing/ReversingOutput/CMakeFiles/Reversing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -333,7 +351,7 @@ ArithmeticExpression: ../IntegerTypesAndOperations/ArithmeticExpression/Arithmet
 ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/all:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\ReadingIntegerNumbers\ReadingIntegerNumbersOutput\CMakeFiles\ReadingIntegerNumbers.dir\build.make ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/depend
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\ReadingIntegerNumbers\ReadingIntegerNumbersOutput\CMakeFiles\ReadingIntegerNumbers.dir\build.make ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target ReadingIntegerNumbers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target ReadingIntegerNumbers"
 .PHONY : ../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/all
 
 # Build rule for subdir invocation for target.
@@ -359,7 +377,7 @@ ReadingIntegerNumbers: ../IntegerTypesAndOperations/ReadingIntegerNumbers/Readin
 ../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput/CMakeFiles/HowManyNutsEachSquirrelWillGet.dir/all:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\HowManyNutsEachSquirrelWillGet\HowManyNutsEachSquirrelWillGetOutput\CMakeFiles\HowManyNutsEachSquirrelWillGet.dir\build.make ../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput/CMakeFiles/HowManyNutsEachSquirrelWillGet.dir/depend
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\HowManyNutsEachSquirrelWillGet\HowManyNutsEachSquirrelWillGetOutput\CMakeFiles\HowManyNutsEachSquirrelWillGet.dir\build.make ../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput/CMakeFiles/HowManyNutsEachSquirrelWillGet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target HowManyNutsEachSquirrelWillGet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target HowManyNutsEachSquirrelWillGet"
 .PHONY : ../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput/CMakeFiles/HowManyNutsEachSquirrelWillGet.dir/all
 
 # Build rule for subdir invocation for target.
@@ -377,6 +395,32 @@ HowManyNutsEachSquirrelWillGet: ../IntegerTypesAndOperations/HowManyNutsEachSqui
 ../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput/CMakeFiles/HowManyNutsEachSquirrelWillGet.dir/clean:
 	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\HowManyNutsEachSquirrelWillGet\HowManyNutsEachSquirrelWillGetOutput\CMakeFiles\HowManyNutsEachSquirrelWillGet.dir\build.make ../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput/CMakeFiles/HowManyNutsEachSquirrelWillGet.dir/clean
 .PHONY : ../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput/CMakeFiles/HowManyNutsEachSquirrelWillGet.dir/clean
+
+#=============================================================================
+# Target rules for target ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir
+
+# All Build rule for target.
+../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir/all:
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\GoodRestOnVacations\GoodRestOnVacationsOutput\CMakeFiles\GoodRestOnVacations.dir\build.make ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir/depend
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\GoodRestOnVacations\GoodRestOnVacationsOutput\CMakeFiles\GoodRestOnVacations.dir\build.make ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target GoodRestOnVacations"
+.PHONY : ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir/all
+
+# Build rule for subdir invocation for target.
+../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anmol\CLionProjects\SimpleChattyBotCpp\cmake-build-debug\CMakeFiles 0
+.PHONY : ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir/rule
+
+# Convenience name for target.
+GoodRestOnVacations: ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir/rule
+.PHONY : GoodRestOnVacations
+
+# clean rule for target.
+../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ..\IntegerTypesAndOperations\GoodRestOnVacations\GoodRestOnVacationsOutput\CMakeFiles\GoodRestOnVacations.dir\build.make ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir/clean
+.PHONY : ../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

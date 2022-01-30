@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../IntegerTypesAndOperations/ArithmeticExpression/CMakeLists.txt"
   "../IntegerTypesAndOperations/Desks/CMakeLists.txt"
   "../IntegerTypesAndOperations/DifferenceOfTimes/CMakeLists.txt"
+  "../IntegerTypesAndOperations/GoodRestOnVacations/CMakeLists.txt"
   "../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/CMakeLists.txt"
   "../IntegerTypesAndOperations/ReadingIntegerNumbers/CMakeLists.txt"
   "../IntegerTypesAndOperations/Reversing/CMakeLists.txt"
@@ -61,6 +62,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
   "../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
   "../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -72,4 +74,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "../IntegerTypesAndOperations/ArithmeticExpression/ArithmeticExpressionOutput/CMakeFiles/ArithmeticExpression.dir/DependInfo.cmake"
   "../IntegerTypesAndOperations/ReadingIntegerNumbers/ReadingIntegerNumbersOutput/CMakeFiles/ReadingIntegerNumbers.dir/DependInfo.cmake"
   "../IntegerTypesAndOperations/HowManyNutsEachSquirrelWillGet/HowManyNutsEachSquirrelWillGetOutput/CMakeFiles/HowManyNutsEachSquirrelWillGet.dir/DependInfo.cmake"
+  "../IntegerTypesAndOperations/GoodRestOnVacations/GoodRestOnVacationsOutput/CMakeFiles/GoodRestOnVacations.dir/DependInfo.cmake"
   )
